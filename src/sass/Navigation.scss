@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  padding: 0;
+  justify-content: space-around;
+  background-color: rgba(241, 234, 233,.7);
+  margin: 0;
+  &__item {
+    text-align: center;
+    border-right: 1px solid;
+    flex-basis: 20%;
+    text-decoration: none;
+    color: black;
+    padding: 12px 0;;
+    &:focus {
+      outline: none;
+    }
+    &:last-child {
+      border: none;
+    }
+    &:hover {
+      background-color: rgba(241, 234, 233, .9);
+    }
+  }
+  .home {
+  color:  blue;
+  }
+  .about {
+  color:  #2A7D4B;
+  }
+  .skills {
+  color:  rebeccapurple;
+  }
+  .learning {
+  color:  chocolate;
+  }
+  .contact {
+  color:  #140E62;
+  }
+}

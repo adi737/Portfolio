@@ -1,0 +1,14 @@
+svg {
+  width: 15px;
+  margin: 0 5px;
+}
+
+img {
+  width: 15px;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
